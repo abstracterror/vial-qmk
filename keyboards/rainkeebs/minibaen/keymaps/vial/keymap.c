@@ -10,9 +10,3 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_NO,   KC_NO,   KC_LGUI, KC_0,    KC_SPC,  KC_0,    KC_DOT,  KC_MUTE, KC_0,    KC_0,    KC_RALT, KC_NO,   KC_NO
     ),
 };
-
-#if defined(ENCODER_MAP_ENABLE)
-const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
-    [0] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
-};
-#endif

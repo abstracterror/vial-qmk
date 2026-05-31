@@ -13,14 +13,9 @@
     },
     "features": {
         "bootmagic": true,
-        "command": false,
-        "console": false,
         "extrakey": true,
-        "grave_esc": false,
-        "magic": false,
-        "mousekey": false,
-        "nkro": false,
-        "space_cadet": false
+        "mousekey": true,
+        "nkro": true
     },
     "matrix_pins": {
         "cols": ["C7", "B7", "B6", "B5", "B4", "B3", "B2", "B1", "B0", "D6", "D5", "C6", "D4" ],
@@ -28,7 +23,7 @@
     },
     "diode_direction": "COL2ROW",
     "encoder": {
-        "enabled": false,
+        "enabled": true,
         "rotary": [
             { "pin_a": "D0", "pin_b": "D1", "resolution": 4}
         ]
